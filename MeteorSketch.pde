@@ -21,7 +21,7 @@ void setup() {
 
 // draw
 void draw() {
-  beginRecord(PDF, "MeteorStrikes.pdf");
+  // beginRecord(PDF, "MeteorStrikes.pdf");
   
   shape(baseMap, 0, 0, width, height);
   
@@ -74,6 +74,6 @@ void draw() {
     }
   }
   
-  endRecord();
-  println("pdf saved");
+  // endRecord();
+  // println("pdf saved");
 }
